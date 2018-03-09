@@ -9,14 +9,12 @@
 <body>
   <header class="main-header">
     <nav class="main-navigation">
-      <figure class="logo">
-        <a href="index.html"><img src="http://via.placeholder.com/137x57" width="137" height="57" alt="logo"></a>
-      </figure>
+      <a class="logo" href="index.html"><img src="img\logo.png" width="138" height="70" alt="logo"></a>
       <ul class="site-navigation">
         <li><a href="#">Информация</a></li>
         <li><a href="#">Фото и Видео</a></li>
         <li><a href="#">Карта штата</a></li>
-        <li><a href="#">Гостиницы</a></li>
+        <li><a class="active" href="#">Гостиницы</a></li>
       </ul>
     </nav>
   </header>
@@ -25,91 +23,109 @@
       <!--Тут будет форма-->
     </section>
     <section class="search-results">
-      <h2>Найдено: 3</h2>
-      <ul class="sort-search-results">
-        <li><a href="#">Сортировка</a></li>
-        <li><a href="#">По цене</a></li>
-        <li><a href="#">По типу</a></li>
-        <li><a href="#">По рейтингу</a></li>
-      </ul>
+      <div class="sort-filters">
+        <b>Найдено: 3</b>
+        <ul class="sort-search-results">
+          <li><a href="#">Сортировка</a></li>
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По рейтингу</a></li>
+        </ul>
+      </div>
     </section>
-    <div class="buttons">
-      <span class="button-up">Вверх</span>
-      <span class="button-down">Вниз</span>
+    <div class="arrows">
+      <span class="arrow-up">Вверх</span>
+      <span class="arrow-down">Вниз</span>
     </div>
     <section class="catalog">
-      <ul class="catalog-list">
-        <li class="catalog-item">
+      <ul class="hotels">
+        <li class="hotel">
           <figure class="hotel-photo">
-            <img src="http://via.placeholder.com/136x91" width="136" height="91" alt="amara-resort" />
+            <img src="img\hotel1.jpg" width="135" height="90" alt="amara-resort" />
           </figure>
-          <h3>Amara resort & spa</h3>
-          <p class="hotel-type">Гостиница</p>
-          <p class="price">4000 р.</p>
-          <p class="catalog-item-reserve">
-            <a class="more-information" href="#"><span>Подробнее</span></a>
-            <a class="reservation" href="#"><span class="reservation">Забронировать</span></a>
-          </p>
-          <div class="rating-stars">
-            <span class="stars">star</span>
-            <span class="stars">star</span>
-            <span class="stars">star</span>
-            <span class="stars">star</span>
-            <span class="stars">star</span>
+          <div class="hotel-description">
+            <a href="#" class="hotel-name">Amara resort & spa</a>
+            <div class="hotel-button">
+              <p class="hotel-type">Гостиница</p>
+              <a class="button button-blue" href="#">Подробнее</a>
+            </div>
+            <div class="hotel-button">
+              <p class="hotel-price">4000 р.</p>
+              <a class="button button-brown" href="#">Забронировать</a>
+            </div>
           </div>
+          <div class="hotel-rating">
+            <div class="rating-stars">
+              <span class="stars">star</span>
+              <span class="stars">star</span>
+              <span class="stars">star</span>
+              <span class="stars">star</span>
+              <span class="stars">star</span>
+            </div>
 
-          <p class="rating">Рейтинг: 8,5</p>
+            <p class="rating">Рейтинг: 8,5</p>
+          </div>
         </li>
         <li class="catalog-item">
           <figure class="hotel-photo">
-            <img src="http://via.placeholder.com/136x91" width="136" height="91" alt="amara-resort" />
+            <img src="img\hotel2.jpg" width="135" height="90" alt="amara-resort" />
           </figure>
-          <h3>Desert quail inn</h3>
-          <p class="hotel-type">Мотель</p>
-          <p class="price">3000 р.</p>
-          <p class="catalog-item-reserve">
-            <a class="more-information" href="#"><span>Подробнее</span></a>
-            <a class="reservation" href="#"><span class="reservation">Забронировать</span></a>
-          </p>
-          <div class="rating-stars">
-            <span class="stars">star</span>
-            <span class="stars">star</span>
-            <span class="stars">star</span>
+          <div class="hotel-description">
+            <a href="#" class="hotel-name">Desert quail inn</a>
+            <div class="hotel-button">
+              <p class="hotel-type">Мотель</p>
+              <a class="button-blue" href="#">Подробнее</a>
+            </div>
+            <div class="hotel-button">
+              <p class="hotel-price">3000 р.</p>
+              <a class="button-brown" href="#">Забронировать</a>
+            </div>
           </div>
-          <p class="rating">Рейтинг: 8,9</p>
+          <div class="hotel-rating">
+            <div class="rating-stars">
+              <span class="stars">star</span>
+              <span class="stars">star</span>
+              <span class="stars">star</span>
+            </div>
+            <p class="rating">Рейтинг: 8,9</p>
+          </div>
         </li>
         <li class="catalog-item">
           <figure class="hotel-photo">
-            <img src="http://via.placeholder.com/136x91" width="136" height="91" alt="amara-resort" />
+            <img src="img\hotel3.jpg" width="135" height="90" alt="amara-resort" />
           </figure>
-          <h3>Villas at poco diablo</h3>
-          <p class="hotel-type">Апартаменты</p>
-          <p class="price">2000 р.</p>
-          <p class="catalog-item-reserve">
-            <a class="more-information" href="#"><span>Подробнее</span></a>
-            <a class="reservation" href="#"><span class="reservation">Забронировать</span></a>
-          </p>
-          <div class="rating-stars">
-            <span class="stars">star</span>
-            <span class="stars">star</span>
+          <div class="hotel-description">
+            <a href="#" class="hotel-name">Villas at poco diablo</a>
+            <div class="hotel-button">
+              <p class="hotel-type">Апартаменты</p>
+              <a class="button-blue" href="#">Подробнее</a>
+            </div>
+            <div class="hotel-button">
+              <p class="hotel-price">2000 р.</p>
+              <a class="button-brown" href="#">Забронировать</a>
+            </div>
           </div>
-          <p class="rating">Рейтинг: 9,2</p>
+          <div class="hotel-rating">
+            <div class="rating-stars">
+              <span class="stars">star</span>
+              <span class="stars">star</span>
+            </div>
+            <p class="rating">Рейтинг: 9,2</p>
+          </div>
         </li>
       </ul>
     </section>
   </main>
   <footer class="main-footer">
     <p class="footer-contacts">#visitsedona</p>
-    <div class="footer-social">
-      <ul>
-        <li>
-          <a class="social-button" href="#">твиттер</a>
-          <a class="social-button" href="#">фэйсбук</a>
-          <a class="social-button" href="#">ютуб</a>
-        </li>
-      </ul>
-    </div>
-    <p class="footer-copyright">website by<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="http://placehold.it/113x39" width="113" height="39" alt="htmlacademy logo"></a></p>
+    <ul>
+      <li>
+        <a class="social-button" href="#">твиттер</a>
+        <a class="social-button" href="#">фэйсбук</a>
+        <a class="social-button" href="#">ютуб</a>
+      </li>
+    </ul>
+    <p class="footer-copyright">website by<a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img\logo-htmlacademy.svg" width="115" height="41" alt="htmlacademy logo"></a></p>
   </footer>
 </body>
 
