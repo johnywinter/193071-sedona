@@ -8,11 +8,9 @@
 
 <body>
   <div class="wrapper">
-
-
     <header class="main-header">
       <nav class="main-navigation">
-        <a href="#"><img src="img\logo.png" width="138" height="70" alt="Sedona"></a>
+        <a class="logo" href="#"><img src="img\logo.png" width="138" height="70" alt="Sedona"></a>
         <ul class="site-navigation">
           <li><a href="#">Информация</a></li>
           <li><a href="#">Фото и Видео</a></li>
@@ -22,11 +20,11 @@
       </nav>
     </header>
     <main>
+      <!-- Картинка под навигацией -->
+      <div class="intro">
+        <img src="img\welcome-sedona-t.png" width="458" height="352" alt="welcome-sedona">
+      </div>
       <article class="reasons">
-        <!-- Картинка под навигацией -->
-        <div class="intro">
-          <img src="img\welcome-sedona-t.png" width="458" height="352" alt="welcome-sedona">
-        </div>
         <div class="reasons-head">
           <h1 class="reasons-title">СЕДОНА — небольшой городок в АРИЗОНЕ, ЗАСЛУЖИвающий большего!</h1>
           <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
@@ -34,13 +32,12 @@
         <div class="reason-row">
           <div class="reason">
             <h2 class="reason-title">Настоящий городок</h2>
-            <div class="reason-number"> №1 </div>
+            <div class="reason-number">№1</div>
             <p class="reason-text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
           </div>
           <div class="reason-image">
             <img src="img\reason1.jpg" width="800" height="256" alt="reason-image">
           </div>
-
         </div>
         <div class="reason-row">
           <div class="reason reason-icon reason-image-home">
@@ -62,39 +59,68 @@
           </div>
           <div class="reason">
             <h2 class="reason-title">Там есть мост Дьявола</h2>
-            <div class="reason-number"> №2 </div>
+            <div class="reason-number">№2</div>
             <p class="reason-text">Да, по нему можно пройти! Если конечно Вы осмелитесь</p>
           </div>
         </div>
         <div class="reason-row reason-row-gray">
           <div class="reason">
             <h2 class="reason-title">Небольшая площадь</h2>
-            <div class="reason-number"> №3 </div>
+            <div class="reason-number">№3</div>
             <p class="reason-text">Все достопримечательности находятся очень близко</p>
           </div>
           <div class="reason">
             <h2 class="reason-title">Красивая дорога</h2>
-            <div class="reason-number"> №4 </div>
+            <div class="reason-number">№4</div>
             <p class="reason-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </div>
           <div class="reason">
             <h2 class="reason-title">Мало туристов</h2>
-            <div class="reason-number"> №5 </div>
+            <div class="reason-number">№5</div>
             <p class="reason-text">Большинство едет в Гранд Каньон и толпится там</p>
           </div>
         </div>
       </article>
-      <section class="search-hotels-title">
-        <h2 class="reason-title">Заинтересовались?</h2>
+      <section class="search">
+        <h2 class="search-title">Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
         <button class="button button-brown" type="button">Поиск гостиницы в Седоне</button>
-        <!--Тут будет форма-->
+        <div class="form">
+          <form class="find-hotels" action="" method="get">
+            <div class="input-line">
+              <label for="check1">Дата заезда:</label>
+              <input class="calendar" type="text" name="checkin" id="check1" placeholder="24 апреля 2017" />
+              <button class="calendar-date" type="button"><img src="img\calendar.svg" alt="calendar" /></button>
+            </div>
+            <div class="input-line">
+              <label for="check2">Дата выезда:</label>
+              <input class="calendar" type="text" name="checkout" id="check2" placeholder="4 июля 2017" />
+              <button class="calendar-date" type="button"><img src="img\calendar.svg" alt="calendar" /></button>
+            </div>
+            <div class="input-line">
+              <label for="check3">Взрослые:</label>
+            </div>
+            <div class="minus-plus">
+              <button class="button-gray" type="button">-</button>
+              <input class="calendar" type="text" name="adults" id="check3" placeholder="2" />
+              <button class="button-gray" type="button">+</button>
+            </div>
+            <div class="input-line">
+              <label for="check4">Дети:</label>
+            </div>
+            <div class="minus-plus">
+              <button class="button-gray" type="button">-</button>
+              <input class="calendar" type="text" name="childrens" id="check4" placeholder="0" />
+              <button class="button-gray" type="button">+</button>
+            </div>
+            <button class="button-blue" type="submit">Найти</button>
+          </form>
+        </div>
       </section>
       <section class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.180505982906!2d-111.83015803238298!3d34.85437338102221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2slv!4v1520590436099"
           width="1200" height="593" allowfullscreen></iframe>
       </section>
-
     </main>
     <footer class="main-footer main-footer-index">
       <p class="hashtag">#visitsedona</p>
