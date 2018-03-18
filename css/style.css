@@ -1,0 +1,224 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+  font-weight: bold;
+}
+
+.site-navigation a:hover {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: #b2b2b2;
+}
+
+.reasons-head h1 {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.reasons-head p {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.reason-image {
+  background-color: #81b3d2;
+}
+
+.reason-row-gray {
+  background-color: #eeeeee;
+}
+
+.reason h2 {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.search {
+  text-align: center;
+}
+
+.search h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.search-title p {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+}
+
+.button-brown {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  background-color: #766357;
+}
+
+.button-brown:hover {
+  background-color: #604e43;
+}
+
+.button-brown:active {
+  color: #503e33;
+}
+
+.form .button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  background-color: #81b3d2;
+}
+
+.form .button:hover {
+  background-color: #669ec0;
+}
+
+.form .button:active {
+  color: #88b6d1;
+  background-color: #5496bd;
+}
+
+.input-line {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.field-date {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/*Поиск Отелей*/
+
+.filters-column p, .filters-price p {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.total-results {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sort-types-title {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.sort-types-list li {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.hotel-description a {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hotel-name {
+  color: black;
+}
+
+.hotel-name:hover {
+  color: #81b3d2;
+}
+
+.hotel-name:active {
+  color: #b2b2b2;
+}
+
+.hotel-type, .hotel-price {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.button-blue {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  background-color: #81b3d2;
+}
+
+.button-blue:hover {
+  background-color: #669ec0;
+}
+
+.button-blue:active {
+  color: #5496bd;
+}
