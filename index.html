@@ -29,7 +29,7 @@
       </div>
       <article class="reasons">
         <div class="reasons-head">
-          <h1 class="reasons-title">Седона — небольшой городок в Аризоне, Заслуживающий большего!</h1>
+          <h1 class="reasons-title">Седона &mdash; небольшой городок в Аризоне, Заслуживающий большего!</h1>
           <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
         </div>
         <div class="reason-row">
@@ -43,15 +43,15 @@
           </div>
         </div>
         <div class="reason-row">
-          <div class="reason-icon reason-image-home">
+          <div class="reason-icon reason reason-image-home">
             <h2 class="reason-title">Жилье</h2>
             <p class="reason-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
           </div>
-          <div class="reason-icon reason-image-food">
+          <div class="reason-icon reason reason-image-food">
             <h2 class="reason-title">Еда</h2>
             <p class="reason-text">Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
           </div>
-          <div class="reason-icon reason-image-gift">
+          <div class="reason-icon reason reason-image-gift">
             <h2 class="reason-title">Сувениры</h2>
             <p class="reason-text">Не только китайского,но и местного производства</p>
           </div>
@@ -112,24 +112,22 @@
                 </svg>
               </button>
             </div>
-            <div class="input-line">
-              <div class="input-line-adults">
-                <label for="check3">Взрослые:</label>
+            <div class="input-line-persons">
+              <div class="input-line-person">
+                <label class="adults" for="check3">Взрослые:</label>
+                <div class="amount-wrap">
+                  <button class="amount-btn" type="button">-</button>
+                  <input class="field" type="text" name="adults" id="check3" value="2" />
+                  <button class="amount-btn" type="button">+</button>
+                </div>
               </div>
-              <div class="amount-wrap">
-                <button class="amount-btn" type="button">-</button>
-                <input class="field" type="text" name="adults" id="check3" value="2" />
-                <button class="amount-btn" type="button">+</button>
-              </div>
-            </div>
-            <div class="input-line">
-              <div class="input-line-childrens">
-                <label for="check4">Дети:</label>
-              </div>
-              <div class="amount-wrap">
-                <button class="amount-btn" type="button">-</button>
-                <input class="field" type="text" name="childrens" id="check4" value="0" />
-                <button class="amount-btn" type="button">+</button>
+              <div class="input-line-person">
+                <label class="childrens" for="check4">Дети:</label>
+                <div class="amount-wrap">
+                  <button class="amount-btn" type="button">-</button>
+                  <input class="field" type="text" name="childrens" id="check4" value="0" />
+                  <button class="amount-btn" type="button">+</button>
+                </div>
               </div>
             </div>
             <button class="button" type="submit">Найти</button>
